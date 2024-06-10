@@ -1,0 +1,36 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  height: 30rem;
+
+  position: relative;
+}
+
+.info_movie {
+  position: absolute;
+  max-width: 30rem;
+  left: 2rem;
+  bottom: 2rem;
+}
+
+.original_name h1 {
+  font-size: 2.5rem;
+  color: white;
+  font-weight: 500;
+  margin-top: 0;
+  text-transform: capitalize;
+}
+
+.group-navigate_button {
+  display: flex;
+}
+
+.group-navigate_button .btn-play {
+  margin-right: 1rem;
+}
+
+.overview {
+  color: white;
+  font-size: 17px;
+  line-height: 1.5rem;
+}

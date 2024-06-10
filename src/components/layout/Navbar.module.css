@@ -1,0 +1,37 @@
+.navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: transparent;
+  transition: all 0.3s;
+  z-index: 100;
+}
+
+.navbar-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.navbar.active {
+  background-color: black;
+}
+
+.navbar .logo {
+  color: red;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.navbar .search {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bold;
+}
+
+.logo:hover,
+.search:hover {
+  color: brown;
+}

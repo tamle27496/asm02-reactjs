@@ -1,0 +1,42 @@
+.search_form {
+  max-width: 600px;
+  margin: auto;
+  background-color: white;
+  margin-top: 100px;
+}
+
+.form {
+  width: 100%;
+}
+
+.input {
+  width: 100%;
+  padding: 1rem 2rem;
+  border: none;
+  border-bottom: 2px solid #3fc7eb;
+}
+
+.input:focus-visible {
+  outline: none;
+}
+
+.form .group_button {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1.5rem;
+}
+
+.group_button button {
+  padding: 0.7rem 1rem;
+  background-color: #3fc7eb;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.group_button .button_reset {
+  color: black;
+  background-color: white;
+}

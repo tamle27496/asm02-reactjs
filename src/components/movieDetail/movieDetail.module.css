@@ -1,0 +1,29 @@
+.wrap_movie_detail {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
+  color: white;
+}
+
+.wrap_movie_detail h2 {
+  font-size: 2rem;
+  margin-top: 0;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid white;
+  margin-bottom: 1rem;
+}
+
+.wrap_movie_detail p {
+  margin: 0;
+  font-size: 1.075rem;
+  font-weight: 600;
+}
+
+.wrap_movie_detail .vote {
+  margin-bottom: 1rem;
+}
+
+.wrap_movie_detail .overview {
+  font-weight: 400;
+}

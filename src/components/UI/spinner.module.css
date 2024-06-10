@@ -1,0 +1,41 @@
+.wrap_spinner {
+  width: 100%;
+  transform: translateY(50%);
+}
+
+.sp {
+  width: 32px;
+  height: 32px;
+  clear: both;
+  margin: 20px auto;
+}
+
+.sp-circle {
+  border: 4px rgba(255, 99, 71, 0.2) solid;
+  border-top: 4px rgba(255, 99, 71, 1) solid;
+  border-radius: 50%;
+  -webkit-animation: spCircRot 0.6s infinite linear;
+  animation: spCircRot 0.6s infinite linear;
+}
+
+.spinner-text {
+  color: white;
+  text-align: center;
+}
+
+@-webkit-keyframes spCircRot {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
+@keyframes spCircRot {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
